@@ -1,20 +1,19 @@
 class Circle{
     constructor (radius){
+
     this.radius = radius
 
-    this.defaultLocation = { x: 0, y: 10};
+    let defaultLocation = { x: 0, y: 10};
 
-    this.cOL = function(){
+    let compute = function(){
         // ...
     }
 
     this.draw = function(){
-        this.cOL()
+        compute(0.1)
         console.log('draw')
     }}
 }
 
 const circle = new Circle(10)
 
-
-console.log(circle)
